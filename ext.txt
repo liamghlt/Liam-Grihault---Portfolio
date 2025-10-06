@@ -1,0 +1,11 @@
+Extention: 
+- French Language
+- GitHub Copilot
+- GitHub Copilot Chat
+- Indent Rainbow
+- Live Server
+- Material Icon Theme
+- Prettier
+- Auto Close Tag
+- Better Comments 
+- Error Lens
