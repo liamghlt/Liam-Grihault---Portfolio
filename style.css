@@ -517,10 +517,10 @@ footer {
 }
 
 @media (max-width: 600px) {
-  /* Header plus compact */
   header {
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row; /* Garde en ligne */
+    justify-content: space-between;
+    align-items: center;
     padding: 10px 15px;
   }
 
@@ -529,9 +529,13 @@ footer {
   }
 
   header nav ul {
-    flex-direction: column;
+    display: flex;
     gap: 10px;
     font-size: 14px;
+  }
+
+  header nav ul li a {
+    padding: 5px;
   }
 
   .home {
@@ -558,7 +562,6 @@ footer {
     padding: 20px 15px;
   }
 
-  /* Titres plus petits */
   h2 {
     font-size: 28px;
   }
@@ -579,4 +582,5 @@ footer {
     max-width: 280px;
   }
 }
+
 /* Fin du CSS */
