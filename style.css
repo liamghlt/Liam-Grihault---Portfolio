@@ -464,7 +464,7 @@ footer {
   margin-top: 30px;
 }
 
-/* 📱 RESPONSIVE DESIGN */
+/* 📱 RESPONSIVE DESIGN CORRIGÉ */
 
 @media (max-width: 1200px) {
   header {
@@ -517,18 +517,21 @@ footer {
 }
 
 @media (max-width: 600px) {
+  /* Header plus compact */
   header {
-    gap: 15px;
-    padding: 15px 20px;
+    flex-direction: column;
+    gap: 8px;
+    padding: 10px 15px;
   }
 
   header h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   header nav ul {
-    gap: 15px;
-    font-size: 12px;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
   }
 
   .home {
@@ -544,7 +547,7 @@ footer {
   }
 
   .img-of-home img {
-    width: 100%;
+    width: 90%;
     max-width: 300px;
   }
 
@@ -552,11 +555,20 @@ footer {
   .skills,
   .works,
   .contact {
-    padding: 20px;
+    padding: 20px 15px;
+  }
+
+  /* Titres plus petits */
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 20px;
   }
 
   .img-of-me img {
-    width: 100%;
+    width: 80%;
     max-width: 200px;
   }
 
@@ -567,5 +579,4 @@ footer {
     max-width: 280px;
   }
 }
-
 /* Fin du CSS */
