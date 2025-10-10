@@ -583,4 +583,139 @@ footer {
   }
 }
 
-/* Fin du CSS */
+/* 🌟 Portfolio Detail Page (compact version) */
+.portfolio-detail {
+  padding: 40px 60px;
+  max-width: 900px;
+  margin: 0 auto;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Header du projet */
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.portfolio-header h1 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #9c7465;
+  margin-bottom: 5px;
+}
+
+.portfolio-header .subtitle {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.portfolio-header span {
+  color: #9c7465;
+  font-weight: 600;
+}
+
+/* Image principale */
+.portfolio-image {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.portfolio-image img {
+  width: 88%;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-image img:hover {
+  transform: scale(1.015);
+}
+
+/* Description du projet */
+.portfolio-description {
+  font-size: 17px;
+  line-height: 1.55;
+}
+
+.portfolio-description h2 {
+  font-size: 24px;
+  color: #9c7465;
+  margin-top: 25px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.portfolio-description p {
+  margin-bottom: 12px;
+}
+.portfolio-description p span {
+  color: #9c7465;
+  font-weight: 600;
+}
+
+.portfolio-description ul {
+  margin-left: 18px;
+  margin-bottom: 15px;
+}
+
+.portfolio-description li {
+  margin-bottom: 4px;
+  list-style-type: "– ";
+}
+
+/* Bouton retour */
+.back-button {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.back-button a {
+  text-decoration: none;
+  color: white;
+  background: #9c7465;
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 4px rgba(156, 116, 101, 0.5), 0 0 8px rgba(156, 116, 101, 0.3);
+}
+
+.back-button a:hover {
+  background: #b88470;
+  transform: scale(1.04);
+}
+
+/* 📱 Responsive */
+@media (max-width: 900px) {
+  .portfolio-detail {
+    padding: 30px 30px;
+  }
+
+  .portfolio-header h1 {
+    font-size: 32px;
+  }
+
+  .portfolio-description h2 {
+    font-size: 21px;
+  }
+
+  .portfolio-image img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .portfolio-detail {
+    padding: 25px 18px;
+  }
+
+  .portfolio-header h1 {
+    font-size: 26px;
+  }
+
+  .portfolio-description {
+    font-size: 15.5px;
+  }
+}
